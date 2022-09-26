@@ -1,0 +1,51 @@
+include_directories(${CMAKE_SOURCE_DIR})
+
+set(srcs
+  compressed-matrix.cc
+  io-funcs.cc
+  kaldi-holder.cc
+  kaldi-io.cc
+  kaldi-matrix.cc
+  kaldi-semaphore.cc
+  kaldi-table.cc
+  kaldi-utils.cc
+  kaldi-vector.cc
+  matrix-shape.cc
+  parse-options.cc
+  posterior.cc
+  text-utils.cc
+  wave-reader.cc
+)
+
+add_library(kaldiio_core ${srcs})
+if(APPLE)
+  set_target_properties(kaldiio_core
+    PROPERTIES
+      LINK_FLAGS "-undefined dynamic_lookup"
+  )
+endif()
+
+file(MAKE_DIRECTORY
+  DESTINATION
+    ${PROJECT_BINARY_DIR}/include/kaldiio/csrc
+)
+
+file(GLOB_RECURSE all_headers *.h)
+
+if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
+  message(STATUS "All headers: ${all_headers}")
+endif()
+
+file(COPY
+  ${all_headers}
+  DESTINATION
+    ${PROJECT_BINARY_DIR}/include/kaldiio/csrc
+)
+
+install(TARGETS kaldiio_core
+  DESTINATION ${CMAKE_INSTALL_LIBDIR}
+)
+
+install(FILES ${all_headers}
+  DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/kaldiio/csrc
+)
