@@ -15,6 +15,15 @@ set(srcs
   posterior.cc
   text-utils.cc
   wave-reader.cc
+
+  fbank/feature-fbank.cc
+  fbank/feature-functions.cc
+  fbank/feature-window.cc
+  fbank/fftsg.c
+  fbank/log.cc
+  fbank/mel-computations.cc
+  fbank/online-feature.cc
+  fbank/rfft.cc
 )
 
 add_library(kaldiio ${srcs})
@@ -30,7 +39,8 @@ file(MAKE_DIRECTORY
     ${PROJECT_BINARY_DIR}/include/kaldiio
 )
 
-file(GLOB_RECURSE all_headers *.h)
+file(GLOB all_headers *.h)
+file(GLOB all_headers_fbank fbank/*.h)
 
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
   message(STATUS "All headers: ${all_headers}")
@@ -42,10 +52,16 @@ file(COPY
     ${PROJECT_BINARY_DIR}/include/kaldiio/
 )
 
+file(COPY
+  ${all_headers_fbank}
+  DESTINATION
+    ${PROJECT_BINARY_DIR}/include/kaldiio/fbank
+)
+
 install(TARGETS kaldiio
   DESTINATION ${CMAKE_INSTALL_LIBDIR}
 )
 
 install(FILES ${all_headers}
-  DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/kaldiio
+  DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/kaldiio/fbank
 )

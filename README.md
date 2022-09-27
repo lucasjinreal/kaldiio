@@ -2,6 +2,8 @@
 
 `kaldiio` make using kaldiio functions in a easy way, users can using kaldiio to reading wav,mp3 files etc in pure c++.
 
+Also, fbank included into `kaldiio` as well, you just need `kaldiio` then you can do both IO reading and feature extracting using fbank.
+
 
 ## Install
 
