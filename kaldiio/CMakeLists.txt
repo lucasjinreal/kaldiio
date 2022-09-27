@@ -17,9 +17,9 @@ set(srcs
   wave-reader.cc
 )
 
-add_library(kaldiio_core ${srcs})
+add_library(kaldiio ${srcs})
 if(APPLE)
-  set_target_properties(kaldiio_core
+  set_target_properties(kaldiio
     PROPERTIES
       LINK_FLAGS "-undefined dynamic_lookup"
   )
@@ -27,7 +27,7 @@ endif()
 
 file(MAKE_DIRECTORY
   DESTINATION
-    ${PROJECT_BINARY_DIR}/include/kaldiio/csrc
+    ${PROJECT_BINARY_DIR}/include/kaldiio
 )
 
 file(GLOB_RECURSE all_headers *.h)
@@ -42,7 +42,7 @@ file(COPY
     ${PROJECT_BINARY_DIR}/include/kaldiio/
 )
 
-install(TARGETS kaldiio_core
+install(TARGETS kaldiio
   DESTINATION ${CMAKE_INSTALL_LIBDIR}
 )
 
