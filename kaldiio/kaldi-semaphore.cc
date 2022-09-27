@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-semaphore.cc
+// kaldi-semaphore.cc
 
 // Copyright 2012  Karel Vesely (Brno University of Technology)
 //           2017  Dogan Can (University of Southern California)
@@ -18,9 +18,9 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "kaldi_native_io/csrc/kaldi-semaphore.h"
+#include "kaldi-semaphore.h"
 
-#include "kaldi_native_io/csrc/log.h"
+#include "log.h"
 
 namespace kaldiio {
 

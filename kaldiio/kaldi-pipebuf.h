@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/util/kaldi-pipebuf.h
+// util/kaldi-pipebuf.h
 
 // Copyright 2009-2011  Ondrej Glembek
 
@@ -28,10 +28,10 @@
 #if !defined(_LIBCPP_VERSION)  // libc++
 #include <fstream>
 #else
-#include "kaldi_native_io/csrc/basic-filebuf.h"
+#include "basic-filebuf.h"
 #endif
 
-#include "kaldi_native_io/csrc/log.h"
+#include "log.h"
 
 namespace kaldiio {
 // This class provides a way to initialize a filebuf with a FILE* pointer

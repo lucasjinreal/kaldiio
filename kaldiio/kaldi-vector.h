@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-vector.h
+// kaldi-vector.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/matrix/kaldi-vector.h
@@ -15,9 +15,9 @@
 #ifndef KALDI_NATIVE_IO_CSRC_KALDI_VECTOR_H_
 #define KALDI_NATIVE_IO_CSRC_KALDI_VECTOR_H_
 
-#include "kaldi_native_io/csrc/io-funcs.h"
-#include "kaldi_native_io/csrc/log.h"
-#include "kaldi_native_io/csrc/matrix-common.h"
+#include "io-funcs.h"
+#include "log.h"
+#include "matrix-common.h"
 
 namespace kaldiio {
 

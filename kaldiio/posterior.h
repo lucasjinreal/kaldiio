@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/posterior.h
+// posterior.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/hmm/posterior.h
@@ -13,8 +13,8 @@
 #include <utility>
 #include <vector>
 
-#include "kaldi_native_io/csrc/kaldi-vector.h"
-#include "kaldi_native_io/csrc/log.h"
+#include "kaldi-vector.h"
+#include "log.h"
 
 namespace kaldiio {
 

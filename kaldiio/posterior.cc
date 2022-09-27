@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/posterior.cc
+// posterior.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/hmm/posterior.cc
@@ -8,12 +8,12 @@
 //                2014  Guoguo Chen
 //                2014  Guoguo Chen
 
-#include "kaldi_native_io/csrc/posterior.h"
+#include "posterior.h"
 
 #include <vector>
 
-#include "kaldi_native_io/csrc/io-funcs.h"
-#include "kaldi_native_io/csrc/text-utils.h"
+#include "io-funcs.h"
+#include "text-utils.h"
 
 namespace kaldiio {
 

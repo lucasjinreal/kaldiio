@@ -1,11 +1,11 @@
-// kaldi_native_io/csrc/matrix-shape.h
+// matrix-shape.h
 //
 // Copyright (c)  2022  Xiaomi Corporation (authors: Fangjun Kuang)
 
 #ifndef KALDI_NATIVE_IO_CSRC_MATRIX_SHAPE_H_
 #define KALDI_NATIVE_IO_CSRC_MATRIX_SHAPE_H_
 
-#include "kaldi_native_io/csrc/log.h"
+#include "log.h"
 
 namespace kaldiio {
 class MatrixShape {

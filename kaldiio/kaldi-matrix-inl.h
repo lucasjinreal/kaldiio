@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-matrix-inl.h
+// kaldi-matrix-inl.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/matrix/kaldi-matrix-inl.h
@@ -8,7 +8,7 @@
 #ifndef KALDI_NATIVE_IO_CSRC_KALDI_MATRIX_INL_H_
 #define KALDI_NATIVE_IO_CSRC_KALDI_MATRIX_INL_H_
 
-#include "kaldi_native_io/csrc/kaldi-matrix.h"
+#include "kaldi-matrix.h"
 
 namespace kaldiio {
 

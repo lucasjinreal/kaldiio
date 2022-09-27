@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-matrix.cc
+// kaldi-matrix.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/matrix/kaldi-matrix.cc
@@ -10,15 +10,15 @@
 //           2017        Shiyin Kang
 //           2019        Yiwen Shao
 
-#include "kaldi_native_io/csrc/kaldi-matrix.h"
+#include "kaldi-matrix.h"
 
 #include <string.h>
 
 #include <vector>
 
-#include "kaldi_native_io/csrc/compressed-matrix.h"
-#include "kaldi_native_io/csrc/io-funcs.h"
-#include "kaldi_native_io/csrc/kaldi-utils.h"
+#include "compressed-matrix.h"
+#include "io-funcs.h"
+#include "kaldi-utils.h"
 
 namespace kaldiio {
 

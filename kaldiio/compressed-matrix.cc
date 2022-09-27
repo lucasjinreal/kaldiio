@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/compressed-matrix.cc
+// compressed-matrix.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/matrix/compressed-matrix.cc
@@ -7,14 +7,14 @@
 //                   Frantisek Skala, Wei Shi
 //           2015    Tom Ko
 
-#include "kaldiio/compressed-matrix.h"
+#include "compressed-matrix.h"
 
 #include <algorithm>
 #include <cmath>
 #include <cstring>
 #include <vector>
 
-#include "kaldi_native_io/csrc/log.h"
+#include "log.h"
 
 namespace kaldiio {
 

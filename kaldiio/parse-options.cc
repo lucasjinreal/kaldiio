@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/parse-options.h
+// parse-options.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/parse-options.cc
@@ -8,11 +8,11 @@
 // Copyright 2012-2013  Johns Hopkins University (Author: Daniel Povey);
 //                      Frantisek Skala;  Arnab Ghoshal
 // Copyright 2013       Tanel Alumae
-#include "kaldi_native_io/csrc/parse-options.h"
+#include "parse-options.h"
 
 #include <cstring>
 
-#include "kaldi_native_io/csrc/log.h"
+#include "log.h"
 
 namespace kaldiio {
 

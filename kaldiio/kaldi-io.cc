@@ -1,11 +1,11 @@
-// kaldi_native_io/csrc/kaldi-io.cc
+// kaldi-io.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/kaldi-io.cc
 
 // Copyright 2009-2011  Microsoft Corporation;  Jan Silovsky
 //                2016  Xiaohui Zhang
-#include "kaldi_native_io/csrc/kaldi-io.h"
+#include "kaldi-io.h"
 
 #include <string.h>
 
@@ -15,12 +15,12 @@
 #include <stdio.h>
 #endif
 
-#include "kaldi_native_io/csrc/io-funcs.h"
-#include "kaldi_native_io/csrc/kaldi-pipebuf.h"
-#include "kaldi_native_io/csrc/kaldi-table.h"
-#include "kaldi_native_io/csrc/log.h"
-#include "kaldi_native_io/csrc/parse-options.h"
-#include "kaldi_native_io/csrc/text-utils.h"
+#include "io-funcs.h"
+#include "kaldi-pipebuf.h"
+#include "kaldi-table.h"
+#include "log.h"
+#include "parse-options.h"
+#include "text-utils.h"
 
 #define MapOsPath(x) x
 

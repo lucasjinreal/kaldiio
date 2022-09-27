@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-holder.h
+// kaldi-holder.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/kaldi-holder.h
@@ -12,9 +12,9 @@
 
 #include <string>
 
-#include "kaldi_native_io/csrc/compressed-matrix.h"
-#include "kaldi_native_io/csrc/kaldi-matrix.h"
-#include "kaldi_native_io/csrc/kaldi-vector.h"
+#include "compressed-matrix.h"
+#include "kaldi-matrix.h"
+#include "kaldi-vector.h"
 
 namespace kaldiio {
 
@@ -120,6 +120,6 @@ bool ExtractObjectRange(const CompressedMatrix &input, const std::string &range,
 
 }  // namespace kaldiio
 
-#include "kaldi_native_io/csrc/kaldi-holder-inl.h"
+#include "kaldi-holder-inl.h"
 
 #endif  // KALDI_NATIVE_IO_CSRC_KALDI_HOLDER_H_

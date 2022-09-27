@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-vector.cc
+// kaldi-vector.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/matrix/kaldi-vector.cc
@@ -10,16 +10,16 @@
 //                2015  Guoguo Chen
 //                2017  Daniel Galvez
 //                2019  Yiwen Shao
-#include "kaldi_native_io/csrc/kaldi-vector.h"
+#include "kaldi-vector.h"
 
 #include <string.h>
 
 #include <cstring>
 #include <vector>
 
-#include "kaldi_native_io/csrc/kaldi-utils.h"
-#include "kaldi_native_io/csrc/log.h"
-#include "kaldi_native_io/csrc/matrix-common.h"
+#include "kaldi-utils.h"
+#include "log.h"
+#include "matrix-common.h"
 
 namespace kaldiio {
 

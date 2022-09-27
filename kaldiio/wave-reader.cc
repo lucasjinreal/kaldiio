@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/wave-reader.cc
+// wave-reader.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/feat/wave-reader.cc
@@ -8,13 +8,13 @@
 //                2013  Johns Hopkins University (author: Daniel Povey)
 //
 
-#include "kaldi_native_io/csrc/wave-reader.h"
+#include "wave-reader.h"
 
 #include <cmath>  // for trunc()
 #include <cstring>
 #include <vector>
 
-#include "kaldi_native_io/csrc/kaldi-utils.h"
+#include "kaldi-utils.h"
 
 namespace kaldiio {
 

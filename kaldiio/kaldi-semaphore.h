@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-semaphore.h
+// kaldi-semaphore.h
 
 // Copyright 2012  Karel Vesely (Brno University of Technology)
 //           2017  Dogan Can (University of Southern California)
@@ -24,7 +24,7 @@
 #include <condition_variable>
 #include <mutex>
 
-#include "kaldi_native_io/csrc/log.h"
+#include "log.h"
 
 namespace kaldiio {
 

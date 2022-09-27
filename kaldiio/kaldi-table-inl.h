@@ -32,14 +32,14 @@
 #include <utility>
 #include <vector>
 
-#include "kaldi_native_io/csrc/kaldi-io.h"
-#include "kaldi_native_io/csrc/kaldi-utils.h"
-#include "kaldi_native_io/csrc/log.h"
+#include "kaldi-io.h"
+#include "kaldi-utils.h"
+#include "log.h"
 // #include "util/kaldi-io.h"
 // #include "util/kaldi-holder.h"
 // #include "util/text-utils.h"
-#include "kaldi_native_io/csrc/kaldi-semaphore.h"
-#include "kaldi_native_io/csrc/stl-utils.h"  // for StringHasher.
+#include "kaldi-semaphore.h"
+#include "stl-utils.h"  // for StringHasher.
 
 namespace kaldiio {
 

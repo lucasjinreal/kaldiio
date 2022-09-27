@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/wave-reader.h
+// wave-reader.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/feat/wave-reader.h
@@ -13,8 +13,8 @@
 #include <istream>
 #include <string>
 
-#include "kaldi_native_io/csrc/kaldi-matrix.h"
-#include "kaldi_native_io/csrc/log.h"
+#include "kaldi-matrix.h"
+#include "log.h"
 
 /*
 // THE WAVE FORMAT IS SPECIFIED IN:

@@ -1,18 +1,18 @@
-// kaldi_native_io/csrc/kaldi-table.cc
+// kaldi-table.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/kaldi-table.cc
 
 // Copyright 2009-2011  Microsoft Corporation
 
-#include "kaldi_native_io/csrc/kaldi-table.h"
+#include "kaldi-table.h"
 
 #include <cstring>
 #include <string>
 #include <vector>
 
-#include "kaldi_native_io/csrc/kaldi-io.h"
-#include "kaldi_native_io/csrc/text-utils.h"
+#include "kaldi-io.h"
+#include "text-utils.h"
 namespace kaldiio {
 
 RspecifierType ClassifyRspecifier(const std::string &rspecifier,

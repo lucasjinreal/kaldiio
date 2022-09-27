@@ -1,11 +1,11 @@
-// kaldi_native_io/csrc/matrix-shape.cc
+// matrix-shape.cc
 //
 // Copyright (c)  2022  Xiaomi Corporation (authors: Fangjun Kuang)
 
-#include "kaldi_native_io/csrc/matrix-shape.h"
+#include "matrix-shape.h"
 
-#include "kaldi_native_io/csrc/compressed-matrix.h"
-#include "kaldi_native_io/csrc/io-funcs.h"
+#include "compressed-matrix.h"
+#include "io-funcs.h"
 
 namespace kaldiio {
 

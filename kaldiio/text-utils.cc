@@ -1,13 +1,13 @@
-// kaldi_native_io/csrc/text-utils.cc
+// text-utils.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/text-utils.cc
 
 // Copyright 2009-2011  Saarland University;  Microsoft Corporation
 
-#include "kaldi_native_io/csrc/text-utils.h"
+#include "text-utils.h"
 
-#include "kaldi_native_io/csrc/log.h"
+#include "log.h"
 
 namespace kaldiio {
 

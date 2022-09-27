@@ -1,16 +1,16 @@
-// kaldi_native_io/csrc/io-funcs.cc
+// io-funcs.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/base/io-funcs.cc
 
 // Copyright 2009-2011  Microsoft Corporation;  Saarland University
 
-#include "kaldi_native_io/csrc/io-funcs.h"
+#include "io-funcs.h"
 
 #include <string.h>
 
-#include "kaldi_native_io/csrc/kaldi-utils.h"
-#include "kaldi_native_io/csrc/log.h"
+#include "kaldi-utils.h"
+#include "log.h"
 
 namespace kaldiio {
 

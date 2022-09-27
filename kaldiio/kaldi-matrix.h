@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-matrix.h
+// kaldi-matrix.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/matrix/kaldi-matrix.h
@@ -12,9 +12,9 @@
 #ifndef KALDI_NATIVE_IO_CSRC_KALDI_MATRIX_H_
 #define KALDI_NATIVE_IO_CSRC_KALDI_MATRIX_H_
 
-#include "kaldi_native_io/csrc/kaldi-vector.h"
-#include "kaldi_native_io/csrc/log.h"
-#include "kaldi_native_io/csrc/matrix-common.h"
+#include "kaldi-vector.h"
+#include "log.h"
+#include "matrix-common.h"
 
 namespace kaldiio {
 
@@ -276,6 +276,6 @@ bool WriteSphinx(std::ostream &os, const MatrixBase<Real> &M);
 
 // we need to include the implementation and some
 // template specializations.
-#include "kaldi_native_io/csrc/kaldi-matrix-inl.h"
+#include "kaldi-matrix-inl.h"
 
 #endif  // KALDI_NATIVE_IO_CSRC_KALDI_MATRIX_H_

@@ -39,7 +39,7 @@ endif()
 file(COPY
   ${all_headers}
   DESTINATION
-    ${PROJECT_BINARY_DIR}/include/kaldiio/csrc
+    ${PROJECT_BINARY_DIR}/include/kaldiio/
 )
 
 install(TARGETS kaldiio_core
@@ -47,5 +47,5 @@ install(TARGETS kaldiio_core
 )
 
 install(FILES ${all_headers}
-  DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/kaldiio/csrc
+  DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/kaldiio
 )

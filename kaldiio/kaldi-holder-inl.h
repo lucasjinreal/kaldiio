@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-holder-inl.h
+// kaldi-holder-inl.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/kaldi-holder-inl.h
@@ -13,11 +13,11 @@
 #include <iostream>
 #include <string>
 
-#include "kaldi_native_io/csrc/io-funcs.h"
-#include "kaldi_native_io/csrc/kaldi-matrix.h"
-#include "kaldi_native_io/csrc/kaldi-utils.h"
-#include "kaldi_native_io/csrc/log.h"
-#include "kaldi_native_io/csrc/text-utils.h"
+#include "io-funcs.h"
+#include "kaldi-matrix.h"
+#include "kaldi-utils.h"
+#include "log.h"
+#include "text-utils.h"
 
 namespace kaldiio {
 

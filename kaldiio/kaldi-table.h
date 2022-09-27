@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-table.h
+// kaldi-table.h
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/kaldi-table.h
@@ -10,7 +10,7 @@
 #define KALDI_NATIVE_IO_CSRC_KALDI_TABLE_H_
 #include <string>
 
-#include "kaldi_native_io/csrc/kaldi-holder.h"
+#include "kaldi-holder.h"
 
 namespace kaldiio {
 
@@ -444,6 +444,6 @@ class RandomAccessTableReaderMapped {
 
 }  // namespace kaldiio
 
-#include "kaldi_native_io/csrc/kaldi-table-inl.h"
+#include "kaldi-table-inl.h"
 
 #endif  // KALDI_NATIVE_IO_CSRC_KALDI_TABLE_H_

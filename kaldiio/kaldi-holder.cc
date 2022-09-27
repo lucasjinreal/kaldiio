@@ -1,4 +1,4 @@
-// kaldi_native_io/csrc/kaldi-holder.cc
+// kaldi-holder.cc
 //
 // This file is copied/modified from
 // https://github.com/kaldi-asr/kaldi/blob/master/src/util/kaldi-holder.cc
@@ -6,12 +6,12 @@
 // Copyright 2009-2011     Microsoft Corporation
 //                2016     Xiaohui Zhang
 
-#include "kaldi_native_io/csrc/kaldi-holder.h"
+#include "kaldi-holder.h"
 
-#include "kaldi_native_io/csrc/kaldi-matrix.h"
-#include "kaldi_native_io/csrc/kaldi-vector.h"
-#include "kaldi_native_io/csrc/log.h"
-#include "kaldi_native_io/csrc/text-utils.h"
+#include "kaldi-matrix.h"
+#include "kaldi-vector.h"
+#include "log.h"
+#include "text-utils.h"
 
 namespace kaldiio {
 
