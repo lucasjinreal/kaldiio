@@ -14,3 +14,13 @@ make -j8
 ```
 
 and then you can built. For usage, you just need `build/include/kaldiio` and the `.so` file.
+
+
+## Usage
+
+Here is a project using `kaldiio` as audio file reading and feature extraction in C++: https://github.com/jinfagang/sherpa_ort.git
+
+
+## Copyright
+
+lucasjin @ 2022
