@@ -26,7 +26,7 @@ set(srcs
   fbank/rfft.cc
 )
 
-add_library(kaldiio ${srcs})
+add_library(kaldiio STATIC ${srcs})
 if(APPLE)
   set_target_properties(kaldiio
     PROPERTIES
